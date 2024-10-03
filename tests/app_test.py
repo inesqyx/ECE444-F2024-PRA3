@@ -85,5 +85,3 @@ def test_delete_message(client):
     data = json.loads(rv.data)
     assert data["status"] == 1
     
-def test_search(client):
-    
